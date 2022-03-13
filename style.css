@@ -1,0 +1,190 @@
+* {
+  margin: 0px;
+  font-family: 'Lora', serif;
+  box-sizing: border-box;
+}
+
+.fadee {
+  animation: fadeInAnimation ease 1.5s;
+}
+
+@keyframes fadeInAnimation {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.menuu {
+  background-color: #b29259;
+  width: 1423px;
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* position: fixed; */
+}
+
+.menuu a {
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #150000;
+  font-size: 20px;
+}
+
+.menuu a:hover {
+  background-color: #cab9a7;
+}
+
+.menuu a.active {
+  font-weight: bold;
+  color: #a6342a;
+}
+
+.titlee {
+  text-align: center;
+  color: #150000;
+  font-size: 75px;
+}
+
+.imagee {
+  border: 5px solid #7d6d4b;
+  width: 1423px;
+  /* width: 100vw; */
+  opacity: 50%;
+}
+
+.cityy0 {
+  font-size: 75px;
+  opacity: 75%;
+}
+
+.cityy1 {
+  position: absolute;
+  top: 225px;
+  left: 50px;
+}
+
+.cityy2 {
+  position: absolute;
+  top: 720px;
+  right: 50px;
+}
+
+.cityy3 {
+  position: absolute;
+  top: 1225px;
+  left: 50px;
+}
+
+.cityy4 {
+  position: absolute;
+  top: 1725px;
+  right: 50px;
+}
+
+.cityy5 {
+  position: absolute;
+  top: 2245px;
+  left: 50px;
+}
+
+.cityy6 {
+  position: absolute;
+  top: 2745px;
+  right: 50px;
+}
+
+.cityy7 {
+  position: absolute;
+  top: 3245px;
+  left: 50px;
+}
+
+.audioo0 {
+  opacity: 88%;
+}
+
+.audioo1 {
+  position: absolute;
+  top: 340px;
+  left: 50px;
+}
+
+.audioo2 {
+  position: absolute;
+  top: 825px;
+  right: 50px;
+}
+
+.audioo3 {
+  position: absolute;
+  top: 1340px;
+  left: 50px;
+}
+
+.audioo4 {
+  position: absolute;
+  top: 1840px;
+  right: 50px;
+}
+
+.audioo5 {
+  position: absolute;
+  top: 2350px;
+  left: 50px;
+}
+
+.audioo6 {
+  position: absolute;
+  top: 2865px;
+  right: 50px;
+}
+
+.audioo7 {
+  position: absolute;
+  top: 3365px;
+  left: 50px;
+}
+
+.videoo1 {
+  position: absolute;
+  top: 245px;
+  right: 58px;
+  /* height: 400px; */
+}
+
+.videoo2 {
+  position: absolute;
+  top: 745px;
+  left: 58px;
+}
+
+.videoo3 {
+  position: absolute;
+  top: 1250px;
+  right: 58px;
+}
+
+.videoo4 {
+  position: absolute;
+  top: 1755px;
+  left: 58px;
+}
+
+.videoo5 {
+  position: absolute;
+  top: 2265px;
+  right: 58px;
+}
+
+.videoo6 {
+  position: absolute;
+  top: 2770px;
+  left: 58px;
+}
+
+.videoo7 {
+  position: absolute;
+  top: 3270px;
+  right: 58px;
+}

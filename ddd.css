@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  font-family: 'Lora', serif;
+  box-sizing: border-box;
+}
+
+.fadee {
+  animation: fadeInAnimation ease 1.5s;
+}
+
+@keyframes fadeInAnimation {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.menuu {
+  background-color: #b29259;
+  width: 1423px;
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* position: fixed; */
+}
+
+.menuu a {
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #150000;
+  font-size: 20px;
+}
+
+.menuu a:hover {
+  background-color: #cab9a7;
+}
+
+.menuu a.active {
+  font-weight: bold;
+  color: #a6342a;
+}
+
+.titlee {
+  text-align: center;
+  color: #150000;
+  font-size: 75px;
+}
+
+.imagee {
+  border: 5px solid #7d6d4b;
+  width: 500px;
+  /* width: 100vw; */
+  position: absolute;
+  top: 200px;
+  right: 100px;
+}
+
+.recipee1 {
+  font-size: 40px;
+  margin-left: 100px;
+  position: absolute;
+  top: 200px;
+}
+
+.contentt1 {
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 700px;
+  position: absolute;
+  top: 275px;
+}
+
+.recipee2 {
+  font-size: 40px;
+  margin-left: 100px;
+  margin-right: 700px;
+  position: absolute;
+  top: 550px;
+}
+
+.contentt2 {
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 700px;
+  position: absolute;
+  top: 625px;
+}
+
+.videoo {
+  position: absolute;
+  top: 525px;
+  right: 50px;
+}
