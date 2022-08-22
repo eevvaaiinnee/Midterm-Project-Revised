@@ -15,12 +15,12 @@
 
 .menuu {
   background-color: #b29259;
-  width: 1423px;
-  /* width: 100vw; */
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /* position: fixed; */
+  position: fixed;
+  z-index: 1;
 }
 
 .menuu a {
